@@ -1,2 +1,11 @@
 git lfs install
 git lfs track "*.data" "*.wasm" "*.js"
+
+Отключаю LFS с ним глючит
+git rm --cached "*.data"
+git rm --cached "*.wasm"
+git rm --cached "*.js"
+
+git lfs untrack "*.data"
+git lfs untrack "*.wasm"
+git lfs untrack "*.js"
