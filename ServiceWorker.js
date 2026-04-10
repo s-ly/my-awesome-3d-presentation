@@ -1,4 +1,4 @@
-const cacheName = "DefaultCompany-Tmp_position-0.1";
+const cacheName = "DefaultCompany-Tmp_position-5";
 const contentToCache = [
     "Build/Build.loader.js",
     "Build/Build.framework.js",
